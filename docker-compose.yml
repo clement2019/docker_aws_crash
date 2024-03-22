@@ -1,0 +1,12 @@
+services:
+  hostcontainer: 
+    build: 
+      context: .
+    image: good777lord/nodenet-app 
+
+    restart: always
+    ports: 
+      - 5007:5007
+    volumes: 
+      
+      - ./:/app  

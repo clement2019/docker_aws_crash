@@ -3,13 +3,13 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("This is my express application");
+  res.send("i ma doing great");
 });
 
 app.get("/me", (req, res) => {
-  res.send("Hi I am  clement");
+  res.send("Hi I am ayen");
 });
 
-app.listen(5004, () => {
-  console.log("listening");
+app.listen(5007, () => {
+  console.log("server is running now now .....");
 });
